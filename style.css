@@ -63,15 +63,19 @@ button {
 .header-main {
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 72px 0;
     padding-bottom: 16px;
+    gap: 64px;
 }
 
 .header-left {
     display: flex;
     flex-flow: wrap column;
     align-items: flex-start;
-    width: 45%;
+    align-self: center;
+    min-width: 300px;
+    flex: 1;
 }
 
 .header-title {
@@ -82,10 +86,12 @@ button {
 
 .header-right {
     background-color: #b2b3b6;
-    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 480px;
+    min-height: 300px;
+    flex: 1;
 }
 
 /* gallery section layout & styling */
@@ -106,6 +112,7 @@ button {
     display: flex;
     gap: 64px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .gallery-content {
@@ -159,6 +166,7 @@ button {
     margin: 88px auto;
     padding: 36px 72px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .action-title {
