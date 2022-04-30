@@ -23,7 +23,8 @@ body {
     margin: 16px 0px 0px 0px;
 }
 
-.logo {
+.logo,
+.section-4-text {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
@@ -66,6 +67,7 @@ button {
 
 button {
     background-color: #3882F6;
+    color: #F9FAF8;
     margin: 16px 0;
     padding: 8px 24px;
     border: none;
@@ -137,4 +139,25 @@ button {
     font-style: normal;
     font-weight: 900;
     text-align: end;
+}
+
+.modal {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: 88px auto;
+    padding: 36px 72px;
+    border-radius: 10px;
+}
+
+.section-4-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+}
+
+.sec-4-button {
+    border: 2px solid #F9FAF8;
 }
