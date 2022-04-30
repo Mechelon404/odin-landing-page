@@ -30,6 +30,16 @@ button {
     border: none;
     border-radius: 10px;
     font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+button:active {
+    transform: scale(0.98)
 }
 
 .gallery-title,
@@ -37,6 +47,11 @@ button {
 .quote-text {
     color: #1F2937;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 /* header section layout & styling */
@@ -87,13 +102,21 @@ button {
 }
 
 .header-right {
-    background-color: #b2b3b6;
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 300px;
     min-height: 300px;
     flex: 1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 320px;
+}
+
+.header-links a:hover {
+    font-weight: bold;
 }
 
 /* gallery section layout & styling */
@@ -126,9 +149,10 @@ button {
 }
 
 .gallery-img {
-    border: solid 4px #3882F6;
+    border: solid 4px #1F2937;
     border-radius: 10px;
     height: 180px;
+    width: 180px;
 }
 
 .gallery-subtext {
@@ -168,12 +192,12 @@ button {
 .action-banner {
     background-color: #3882F6;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-width: 1024px;
     box-sizing: border-box;
     margin: 88px auto;
-    padding: 36px 72px;
+    padding: 36px;
     border-radius: 10px;
     flex-wrap: wrap;
 }
