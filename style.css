@@ -40,11 +40,13 @@ button {
 }
 
 /* header section layout & styling */
+
 .header-container {
     display: flex;
     flex-direction: column;
     max-width: 1024px;
     margin: auto;
+    padding: 0 32px;
 }
 
 .header-bar {
@@ -89,7 +91,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 480px;
+    min-width: 300px;
     min-height: 300px;
     flex: 1;
 }
@@ -110,9 +112,11 @@ button {
 
 .gallery-main {
     display: flex;
+    justify-content: center;
     gap: 64px;
     margin: auto;
     flex-wrap: wrap;
+    padding: 0 32px;
 }
 
 .gallery-content {
@@ -152,9 +156,14 @@ button {
     font-style: normal;
     font-weight: 700;
     text-align: end;
+    margin-top: 8px;
 }
 
 /* action section layout & styling */
+
+#action {
+    padding: 0 32px;
+}
 
 .action-banner {
     background-color: #3882F6;
