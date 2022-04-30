@@ -117,3 +117,24 @@ button {
     text-align: center;
     margin-top: 8px;
 }
+
+#section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-3-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 88px;
+    max-width: 912px;
+    align-self: center;
+}
+
+.section-3-credit {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: end;
+}
